@@ -457,3 +457,21 @@ body {
 .contact-right textarea::placeholder {
   color: #cccccc;
 }
+
+/* Contact page social icons */
+.contact-social {
+  margin-top: 20px;
+  display: flex;
+  gap: 30px;
+}
+
+.contact-social a {
+  color: #ffffff;
+  font-size: 3rem;   /* Bigger than home page */
+  transition: color 0.3s ease, transform 0.2s ease;
+}
+
+.contact-social a:hover {
+  color: #ffd700; /* gold hover */
+  transform: scale(1.2);
+}
