@@ -49,3 +49,30 @@ img {
   max-width: 100%;
   border-radius: 8px;
 }
+
+/* Project grid container */
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+/* Project card styling */
+.project-card {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+/* Resize images inside project cards */
+.project-card img {
+  width: 100%;        /* responsive */
+  max-width: 250px;   /* limit size */
+  height: auto;       /* keep aspect ratio */
+  margin: 0 auto 15px auto;
+  display: block;
+  border-radius: 8px;
+}
