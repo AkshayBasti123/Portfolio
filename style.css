@@ -110,3 +110,92 @@ img {
   line-height: 1.8;
   text-align: justify;   
 }
+
+.contact-container {
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 80vh;
+  padding: 40px;
+  background: #f7f7f7; /* you can replace with your textured bg */
+}
+
+/* Left Side */
+.contact-info {
+  flex: 1;
+  padding: 30px;
+}
+
+.contact-info h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.contact-info p {
+  margin: 10px 0;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.social-icons {
+  margin-top: 20px;
+}
+
+.social-icons a {
+  font-size: 1.8rem;
+  margin-right: 15px;
+  color: #333;
+  transition: color 0.3s;
+}
+
+.social-icons a:hover {
+  color: #0077b5; /* LinkedIn blue (you can change) */
+}
+
+/* Right Side */
+.contact-form {
+  flex: 1;
+  padding: 30px;
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form label {
+  margin: 10px 0 5px;
+  font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 10px;
+  border: none;
+  border-bottom: 2px solid #333;
+  background: transparent;
+  outline: none;
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+.contact-form button {
+  width: 120px;
+  padding: 10px;
+  border: 2px solid #333;
+  background: transparent;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.contact-form button:hover {
+  background: #333;
+  color: #fff;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .contact-container {
+    flex-direction: column;
+  }
+}
