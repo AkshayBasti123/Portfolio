@@ -168,3 +168,23 @@ nav a:hover {
     grid-template-columns: repeat(2, 1fr);
   }
 }
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.skill img {
+  width: 70px;   /* shrink icon size */
+  height: 70px;
+  margin-bottom: 10px;
+}
+
+.skill p {
+  font-size: 1.2rem;   /* make text bigger */
+  font-weight: 600;
+  color: #222;
+}
