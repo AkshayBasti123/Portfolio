@@ -7,10 +7,29 @@
 }
 
 body {
-  background: linear-gradient(135deg, #f8fafc, #e0e7ff); /* soft gradient */
+  margin: 0;
+  font-family: "Poppins", Arial, sans-serif;
   color: #222;
   line-height: 1.7;
   font-size: 1rem;
+
+  /* Animated gradient background */
+  background: linear-gradient(-45deg, #1e3a8a, #2563eb, #3b82f6, #93c5fd);
+  background-size: 400% 400%;
+  animation: gradientBG 18s ease infinite;
+}
+
+/* Keyframes for background animation */
+@keyframes gradientBG {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 /* Header */
