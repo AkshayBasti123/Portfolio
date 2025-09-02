@@ -4,7 +4,8 @@
   <meta charset="UTF-8">
   <title>Contact Me</title>
   <link rel="stylesheet" href="style.css">
-  <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script> <!-- Font Awesome for icons -->
+  <!-- Font Awesome for icons -->
+  <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
 </head>
 <body>
   <header>
@@ -13,28 +14,28 @@
       <a href="index.html">Home</a>
       <a href="about.html">About</a>
       <a href="projects.html">Projects</a>
-      <a href="contact.html">Contact</a>
+      <a href="contact.html" class="active">Contact</a>
     </nav>
   </header>
 
-  <div class="contact-container">
-    <!-- Left side text -->
-    <div class="contact-info">
+  <section class="contact-container">
+    <!-- Left side contact info -->
+    <div class="contact-left">
       <h2>Let's Work Together</h2>
-      <p>Need a website for your establishment? Contact me and i'll get back to you as soon as I can!</p>
-      
+      <p>
+        Need a website for your establishment? Contact me and I'll get back to you as soon as I can!
+      </p>
       <p><strong>Email:</strong> akshaynanibasti@gmail.com</p>
       <p><strong>Phone:</strong> 437-829-8683</p>
 
-     
       <div class="social-icons">
         <a href="https://www.instagram.com/akshayba_/" target="_blank"><i class="fab fa-instagram"></i></a>
         <a href="https://www.linkedin.com/in/akshay-bastiampillai-974571356/" target="_blank"><i class="fab fa-linkedin"></i></a>
       </div>
     </div>
 
-    <!-- Right side form -->
-    <div class="contact-form">
+    <!-- Right side contact form -->
+    <div class="contact-right">
       <form action="https://formspree.io/f/mrbaaeod" method="POST">
         <label for="name">Your name</label>
         <input type="text" id="name" name="name" required>
@@ -48,6 +49,6 @@
         <button type="submit">SEND</button>
       </form>
     </div>
-  </div>
+  </section>
 </body>
 </html>
