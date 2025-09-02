@@ -399,3 +399,40 @@ nav a:hover {
     margin: 0 auto 20px;
   }
 }
+
+/* ===== GLOBAL TEXT FIX FOR DARK BACKGROUND ===== */
+body {
+  color: #f5f5f5; /* default light text */
+}
+
+/* Skills section text */
+.skill p {
+  color: #f5f5f5 !important;
+}
+
+/* Project cards text */
+.project-card {
+  background: rgba(255,255,255,0.05); /* semi-transparent dark card */
+  color: #f5f5f5;
+  border: 1px solid rgba(255,255,255,0.2);
+}
+
+/* About section text */
+.about-right {
+  color: #f5f5f5;
+}
+
+/* Contact section text */
+.contact-left,
+.contact-right {
+  color: #f5f5f5;
+}
+.contact-right input,
+.contact-right textarea {
+  background: rgba(255,255,255,0.1);
+  color: #f5f5f5;
+}
+.contact-right input::placeholder,
+.contact-right textarea::placeholder {
+  color: #cccccc;
+}
