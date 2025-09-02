@@ -86,12 +86,23 @@ nav a:hover {
 }
 
 .project-card {
-  background: white;
+  background: rgba(255, 255, 255, 0.85); /* translucent */
   padding: 20px;
   border-radius: 15px;
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
   text-align: center;
   transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.contact-container {
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 80vh;
+  padding: 50px;
+  background: rgba(255, 255, 255, 0.85); /* translucent */
+  border-radius: 20px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+  gap: 40px;
 }
 
 .project-card:hover {
