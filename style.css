@@ -1,4 +1,3 @@
-/* Reset */
 * {
   margin: 0;
   padding: 0;
@@ -17,6 +16,8 @@ header {
   color: white;
   padding: 20px;
   text-align: center;
+  position: sticky;
+  top: 0;
 }
 
 nav a {
