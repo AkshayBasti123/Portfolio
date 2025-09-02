@@ -188,3 +188,87 @@ nav a:hover {
   font-weight: 600;
   color: #222;
 }
+
+/* === ABOUT PAGE LAYOUT === */
+.about-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 40px;
+  padding: 40px;
+}
+
+.about-left {
+  flex: 1;
+}
+
+.about-left img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+.about-right {
+  flex: 2;
+}
+
+.about-right h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.about-right p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+
+/* === CONTACT PAGE LAYOUT === */
+.contact-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 40px;
+  padding: 40px;
+}
+
+.contact-left {
+  flex: 1;
+}
+
+.contact-left h3 {
+  margin-bottom: 10px;
+}
+
+.contact-right {
+  flex: 2;
+}
+
+.contact-right form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact-right input,
+.contact-right textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.contact-right button {
+  background: #1e40af;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.contact-right button:hover {
+  background: #2563eb;
+}
