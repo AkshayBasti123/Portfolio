@@ -475,3 +475,39 @@ body {
   color: #ffd700; /* gold hover */
   transform: scale(1.2);
 }
+
+/* Contact section layout */
+#contact {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 40px;
+  margin-top: 50px;
+  flex-wrap: wrap; /* ensures it won't break on small screens */
+}
+
+.contact-info {
+  flex: 1;
+  max-width: 40%;
+}
+
+.contact-form {
+  flex: 1;
+  max-width: 55%;
+}
+
+/* Make icons larger and spaced nicely */
+.contact-socials {
+  margin-top: 20px;
+}
+
+.contact-socials a {
+  font-size: 36px; /* bigger icons */
+  margin-right: 20px;
+  color: white;
+  transition: color 0.3s;
+}
+
+.contact-socials a:hover {
+  color: #00bcd4; /* teal highlight */
+}
