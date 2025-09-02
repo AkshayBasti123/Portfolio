@@ -72,3 +72,41 @@ img {
   display: block;
   border-radius: 8px;
 }
+
+.about-container {
+  display: flex;
+  flex-wrap: wrap;   /* makes it stack on smaller screens */
+  min-height: 80vh;  /* takes most of screen height */
+}
+
+/* Left side (graphic) */
+.about-left {
+  flex: 1;
+  background: #f0f0f0;   /* placeholder background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.about-left img {
+  max-width: 90%;
+  max-height: 500px;
+  object-fit: contain;
+  border-radius: 12px;
+}
+
+.about-right {
+  flex: 1;
+  padding: 40px;
+}
+
+.about-right h2 {
+  margin-bottom: 20px;
+}
+
+.about-right p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  text-align: justify;   
+}
