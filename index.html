@@ -1,26 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Portfolio - Home</title>
-  <link rel="stylesheet" href="style.css">
-  <script src="main.js" defer></script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Akshay's Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <!-- Header -->
   <header>
-    <h1>Akshay</h1>
-    <p>I build modern websites for small businesses</p>
+    <h1>Akshay's Portfolio</h1>
     <nav>
-      <a href="index.html">Home</a>
-      <a href="about.html">About</a>
-      <a href="projects.html">Projects</a>
-      <a href="contact.html">Contact</a>
+      <a href="#home">Home</a>
+      <a href="#projects">Projects</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
     </nav>
   </header>
 
-  <div class="container">
-    <h2>Welcome!</h2>
-    <p>Hi, I’m <strong>Akshay</strong>. I specialize in creating affordable, professional, and mobile-friendly websites for local businesses.</p>
-  </div>
+  <!-- Home Section -->
+  <section id="home" class="home-container">
+    <div class="about-left">
+      <h2>About Me</h2>
+      <p>
+        Hi, I’m Akshay. I specialize in creating affordable, professional, and
+        mobile-friendly websites for local businesses. Beyond web development,
+        I have a strong passion for coding and technology. I enjoy learning new
+        programming languages, improving my problem-solving skills, and
+        building projects that challenge me. My goal is to provide simple yet
+        powerful digital solutions that make businesses stand out online.
+      </p>
+    </div>
+
+    <div class="skills-right">
+      <h2>Skills</h2>
+      <div class="skills-grid">
+        <div class="skill"><img src="images/html.png" alt="HTML"><p>HTML</p></div>
+        <div class="skill"><img src="images/css.png" alt="CSS"><p>CSS</p></div>
+        <div class="skill"><img src="images/java.png" alt="Java"><p>Java</p></div>
+        <div class="skill"><img src="images/javascript.png" alt="JavaScript"><p>JavaScript</p></div>
+        <div class="skill"><img src="images/react.png" alt="React"><p>React</p></div>
+        <div class="skill"><img src="images/python.png" alt="Python"><p>Python</p></div>
+        <div class="skill"><img src="images/lua.png" alt="Lua"><p>Lua</p></div>
+        <div class="skill"><img src="images/cpp.png" alt="C++"><p>C++</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Other sections you already have -->
+  <section id="projects" class="container">
+    <h2>Projects</h2>
+    <div class="projects-grid">
+      <!-- Your project cards here -->
+    </div>
+  </section>
+
+  <section id="about" class="about-container">
+    <!-- Your about section here -->
+  </section>
+
+  <section id="contact" class="contact-container">
+    <!-- Your contact section here -->
+  </section>
 </body>
 </html>
