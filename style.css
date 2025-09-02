@@ -6,14 +6,17 @@
   font-family: "Poppins", Arial, sans-serif;
 }
 
+/* Animated Gradient Background */
 body {
   margin: 0;
-  font-family: Arial, sans-serif;
-  background: radial-gradient(circle at top left, #1a1a2e, #000000 70%);
+  font-family: "Poppins", Arial, sans-serif;
+  background: linear-gradient(270deg, #000000, #1a1a1a, #262626);
+  background-size: 600% 600%;
+  animation: animatedBackground 12s ease infinite;
   color: #f5f5f5;
 }
-/* Keyframes for background animation */
-@keyframes gradientBG {
+
+@keyframes animatedBackground {
   0% { background-position: 0% 50%; }
   50% { background-position: 100% 50%; }
   100% { background-position: 0% 50%; }
@@ -187,8 +190,10 @@ nav a:hover {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  gap: 40px;
-  padding: 40px;
+  gap: 60px; /* increased gap so text moves right */
+  max-width: 1200px;
+  margin: 50px auto;
+  padding: 20px;
 }
 
 .about-left {
@@ -204,6 +209,10 @@ nav a:hover {
 
 .about-right {
   flex: 2;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #f5f5f5;
+  padding-left: 30px; /* pushes text further to the right */
 }
 
 .about-right h2 {
@@ -215,7 +224,6 @@ nav a:hover {
   font-size: 1.1rem;
   line-height: 1.6;
 }
-
 
 /* === CONTACT PAGE LAYOUT === */
 .contact-container {
@@ -271,7 +279,7 @@ nav a:hover {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  gap: 40px;
+  gap: 60px;
   max-width: 1200px;
   margin: 50px auto;
   padding: 20px;
@@ -293,6 +301,7 @@ nav a:hover {
   font-size: 1.1rem;
   line-height: 1.8;
   color: #f5f5f5;
+  padding-left: 30px; /* keeps spacing */
 }
 
 /* ===== CONTACT PAGE ===== */
