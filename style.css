@@ -199,3 +199,85 @@ img {
     flex-direction: column;
   }
 }
+
+.contact-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 50px;
+  gap: 40px;
+}
+
+.contact-info {
+  flex: 1;
+}
+
+.contact-info h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.contact-info p {
+  margin: 10px 0;
+  line-height: 1.6;
+}
+
+.social-icons {
+  margin-top: 20px;
+}
+
+.social-icons a {
+  margin-right: 15px;
+  font-size: 28px;
+  color: black;
+  transition: color 0.3s;
+}
+
+.social-icons a:hover {
+  color: #0077b5; /* LinkedIn blue */
+}
+
+.contact-form {
+  flex: 1;
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form label {
+  margin-top: 15px;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+  border: none;
+  border-bottom: 2px solid #333;
+  padding: 8px;
+  font-size: 16px;
+  outline: none;
+  resize: none;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-bottom: 2px solid #0077b5;
+}
+
+.contact-form button {
+  margin-top: 20px;
+  padding: 10px;
+  background: white;
+  border: 2px solid #333;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.contact-form button:hover {
+  background: #333;
+  color: white;
+}
