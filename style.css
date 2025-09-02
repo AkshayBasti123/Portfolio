@@ -50,15 +50,13 @@ img {
   border-radius: 8px;
 }
 
-/* Project grid container */
 .projects-grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr); /* exactly 2 columns */
+  grid-template-columns: repeat(2, 1fr); /* 2 columns */
   gap: 20px;
   margin-top: 20px;
 }
 
-/* Project card styling */
 .project-card {
   background: white;
   padding: 15px;
@@ -67,10 +65,9 @@ img {
   text-align: center;
 }
 
-/* Resize project images */
 .project-card img {
-  width: 200px;       /* fixed width */
-  height: auto;       /* keep aspect ratio */
+  width: 200px;   /* shrink images */
+  height: auto;
   margin: 0 auto 15px auto;
   display: block;
   border-radius: 8px;
